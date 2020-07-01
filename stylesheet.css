@@ -2,10 +2,8 @@ body {
   font-family: "Avenir Next";
 }
 
-link {
-  list-style: horizontal;
-  padding: 30px
-  font-size: 24px
+li {
+  list-style: none;
 }
 
 .header {
@@ -26,6 +24,11 @@ link {
   margin-right: 30px
 }
 
+.url {
+  padding: 30px;
+  font-size: 24px
+}
+
 .main {
   background-color: #bdf7f1;
   height: 600px;
@@ -35,7 +38,4 @@ link {
   background-color: #ceccf3;
   height: 270px;
   
- .footer-list {
-   padding: 20px;
-   float: right;
-   
+
